@@ -1,0 +1,36 @@
+import numpy as np
+import math
+variable_1="Ingrese la variable independiente de la función: "
+funcion="Ingrese la función f(x): "
+limite_1="Ingrese el límite inferior del intervalo : "
+limite_2="Ingrese el límite superior del intervalo : "
+intervalos="Ingrese el numero impar de intervalos: "
+respuesta_1="introduzca un numero que sea par:"
+respuesta_2= "es par, n="
+respuesta_3="Escriba un numero"
+respuesta_4="Escriba una variable"
+Var=input(variable_1)
+F = input(funcion)
+a = eval(input(limite_1))
+b = eval(input(limite_2))
+n = eval(input(intervalos))
+h= (b-a)/n
+Funcion=np.F
+N=1
+x_1=a+(n*h)
+#while n%2:
+ #   n_1=eval(input(respuesta_1))
+  #  if (n_1%2==0):
+   #     break
+#print(respuesta_2,n_1)
+
+lista_impar=[]
+for i in range(N):
+    lista_impar.append(a+(n-1)*h)
+print(lista_impar)
+
+lista_par=[]
+for i in range(N):
+    lista_impar.append(a+(n+1)*h)
+print(lista_impar)
+lambda x: eval(F)
